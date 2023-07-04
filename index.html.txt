@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduficent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Eduficent</h1>
+    <h2>Empowering efficient education</h2>
+  </header>
+  <section>
+    <h3>About</h3>
+    <p>Eduficent is a cloud-based education platform that uses AI, machine learning, and AR/VR to deliver personalized and engaging learning experiences.</p>
+    <p>Our platform includes:</p>
+    <ul>
+      <li>Adaptive assessments that use AI to personalize each student's learning journey</li>
+      <li>Virtual reality experiences that allow students to explore real-world environments</li>
+      <li>AI-powered tutors that can answer student questions and provide personalized feedback</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Plans</h3>
+    <p>We offer a variety of plans to meet the needs of different students and schools.</p>
+    <ul>
+      <li>Individual plan</li>
+      <li>Family plan</li>
+      <li>School plan</li>
+    </ul>
+    <p>Click here to learn more about our plans.</p>
+  </section>
+  <section>
+    <h3>Book A Trial Class</h3>
+    <p>Would you like to try Eduficent for free?</p>
+    <button>Click here to book a trial class.</button>
+  </section>
+  <section>
+    <h3>Contact Us</h3>
+    <p>Have any questions?</p>
+    <p>Click here to contact us.</p>
+  </section>
+  <script>
+    var colors = ["red", "blue", "green", "yellow"];
+    var i = 0;
+    setInterval(function() {
+      document.body.style.backgroundColor = colors[i];
+      i = (i + 1) % colors.length;
+    }, 30000);
+  </script>
+</body>
+</html>
